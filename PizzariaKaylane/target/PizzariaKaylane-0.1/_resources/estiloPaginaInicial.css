@@ -1,135 +1,134 @@
 html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 section {
-  height: 100%;
+    height: 100%;
 }
 
 #principal {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 #menu ul {
-  padding: 0px;
-  margin: 0px;
-  float: left;
-  width: 100%;
-  height: 80px;
-  background-color: #EDEDED;
-  list-style: none;
-  font: 100% Tahoma;
-  opacity: .9;
-  position: fixed;
-  z-index: 150;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    width: 100%;
+    height: 80px;
+    background-color: #EDEDED;
+    list-style: none;
+    font: 100% Tahoma;
+    opacity: .9;
+    position: fixed;
+    z-index: 150;
 }
 
 #menu ul li {
-  display: inline;
+    display: inline;
 }
 
 #menu ul li button {
-  background-color: #EDEDED;
-  color: #251d1d;
-  text-decoration: none;
-  height: 100%;
-  float: left;
-  width: 13%;
-  font-size: 150%;
-  font-weight: bold;
-  font-family: 'Josefin Sans', sans-serif;
-  transition: 1s;
-  border: none;
+    background-color: #EDEDED;
+    color: #251d1d;
+    text-decoration: none;
+    height: 100%;
+    float: left;
+    width: 13%;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: 1s;
+    border: none;
 }
 
 #logokaylane {
-  width: 31%;
-  height: 23%;
-  border: 7px solid #f4cc1a;
-  margin: auto;
-  display: block;
-  background-color: white;
+    width: 31%;
+    height: 23%;
+    border: 7px solid #f4cc1a;
+    margin: auto;
+    display: block;
+    background-color: white;
 }
 
 #logokaylane h1 {
-  font-family: 'Tangerine', cursive;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  color: #f4cc1a;
-  font-size: 600%;
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #f4cc1a;
+    font-size: 600%;
 }
 
 #logokaylane hr {
-  height: 2%;
-  background-color: #f4cc1a;
-  border: none;
-  width: 93%;
+    height: 2%;
+    background-color: #f4cc1a;
+    border: none;
+    width: 93%;
 }
 
 #logokaylane p {
-  font-family: 'Open Sans', sans-serif;
-  margin-top: 1%;
-  margin-right: 5%;
-  margin-bottom: 1%;
-  font-size: 250%;
-  text-align: right;
-  font-weight: bold;
-  color: #454545;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 1%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    font-size: 250%;
+    text-align: right;
+    font-weight: bold;
+    color: #454545;
 }
 
 #menu ul li button:hover {
-  background-color: #D6D6D6;
-  color: #6D6D6D;
+    background-color: #D6D6D6;
+    color: #6D6D6D;
 }
 
 #firstimg {
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-image: url(../_imagens/img1.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #firstimg img {
-  width: 100%;
+    width: 100%;
 }
 
 #telefonestitulo {
-  text-align: center;
-  font-size: 700%;
-  font-family: 'Baloo Da', cursive;
-  text-shadow: 4px 4px 4px black;
-  line-height: 150px;
-  margin-top: 1%;
-  color: #d6d6d6;
+    text-align: center;
+    font-size: 700%;
+    font-family: 'Baloo Da', cursive;
+    text-shadow: 4px 4px 4px black;
+    line-height: 150px;
+    margin-top: 1%;
+    color: #d6d6d6;
 }
 
 #titulo h2 {
-  display: block;
-  margin: auto;
-  font-size: 350%;
-  font-family: 'Baloo Da', cursive;
-  color: #ededed;
-  text-shadow: 3px 3px 3px black;
-  text-align: center;
-  opacity: .9;
+    display: block;
+    margin: auto;
+    font-size: 350%;
+    font-family: 'Baloo Da', cursive;
+    color: #ededed;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+    opacity: .9;
 }
 
 #titulo {
-  width: 100%;
-  height: 60%;
-  display: block;
+    width: 100%;
+    height: 60%;
+    display: block;
 }
 
 .sessoes {
-  width: 60%;
-  right: 0;
-  left: 0;
-  margin: auto;
+    width: 60%;
+    right: 0;
+    left: 0;
+    margin: auto;
 }
 
 .titulos {
@@ -140,7 +139,7 @@ section {
 }
 
 #nossacasa {
-  margin-top: 5%;
+    margin-top: 5%;
 }
 
 #nossacasa p {
@@ -183,46 +182,58 @@ section {
 }
 
 #sessaopromocoes {
-  margin-top: 5%;
+    margin-top: 5%;
 }
 
 .paineispromo {
-  border: 3px solid;
-  border-color: #a6a0a0;
-  width: 60%;
-  display: block;
-  margin: 2% auto;
-  text-align: center;
-  font-family: Calibri;
+    border: 3px solid;
+    border-color: #a6a0a0;
+    width: 60%;
+    display: block;
+    margin: 2% auto;
+    text-align: center;
+    font-family: Calibri;
 
 }
 
 .paineispromo h3 {
-  font-size: 300%;
-  font-family: 'Permanent Marker', cursive;
-  font-weight: bolder;
-  color: #ff2929;
-  text-shadow: 3px 3px 3px #a6a0a0;
+    font-size: 300%;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bolder;
+    color: #ff2929;
+    text-shadow: 3px 3px 3px #a6a0a0;
 }
 
 .paineispromo p {
-  font-size: 200%;
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  line-height: 140%;
-  color: #a6a0a0;
+    font-size: 200%;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    line-height: 140%;
+    color: #a6a0a0;
 }
 
 .paineispromo p:last-of-type {
-  color: #f72b2f;
-  font-family: 'Pacifico', cursive;
-  font-weight: bold;
-  text-shadow: 3px 3px 3px #a6a0a0;
-  font-size: 400%;
-  margin-top: 2%;
+    color: #f72b2f;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #a6a0a0;
+    font-size: 400%;
+    margin-top: 2%;
 }
 
 .mostrarpizzas {
+    width: 100%;
+    height: auto;
+    position: static;
+    transition: 1s;
+    animation-name: exibir;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    display: none;
+}
+
+.mostrarpizzasdoces {
     width: 100%;
     height: auto;
     position: static;
@@ -246,14 +257,7 @@ section {
     display: none;
 }
 
-.mostraresfirras p {
-  font-family: 'Hind', sans-serif;
-  color: #a69090;
-  font-size: 150%;
-
-}
-
-.mostrarfogazzas {
+.mostraresfirrasdoces {
     width: 100%;
     height: auto;
     position: static;
@@ -265,19 +269,7 @@ section {
     display: none;
 }
 
-.mostrarbordas {
-    width: 100%;
-    height: auto;
-    position: static;
-    transition: 1s;
-    animation-name: exibir;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-    animation-timing-function: ease-in-out;
-    display: none;
-}
-
-.mostrarbebidas {
+.mostrarbeirutes {
     width: 100%;
     height: auto;
     position: static;
@@ -301,7 +293,7 @@ section {
     color: #a69090;
 }
 
-.mostrarbordas table {
+.mostrarpizzasdoces table {
     width: 100%;
     font-family: 'Hind', sans-serif;
     color: #a69090;
@@ -313,13 +305,13 @@ section {
     color: #a69090;
 }
 
-.mostrarfogazzas table {
+.mostraresfirrasdoces table {
     width: 100%;
     font-family: 'Hind', sans-serif;
     color: #a69090;
 }
 
-.mostrarbebidas table {
+.mostrarbeirutes table {
     width: 100%;
     font-family: 'Hind', sans-serif;
     color: #a69090;
@@ -330,7 +322,7 @@ section {
     color: black;
 }
 
-.mostrarbordas table tr:nth-child(odd) {
+.mostrarpizzasdoces table tr:nth-child(odd) {
     background-color: #ccc;
     color: black;
 }
@@ -340,12 +332,12 @@ section {
     color: black;
 }
 
-.mostrarfogazzas table tr:nth-child(odd) {
+.mostraresfirrasdoces table tr:nth-child(odd) {
     background-color: #ccc;
     color: black;
 }
 
-.mostrarbebidas table tr:nth-child(odd) {
+.mostrarbeirutes table tr:nth-child(odd) {
     background-color: #ccc;
     color: black;
 }
@@ -354,7 +346,7 @@ section {
     text-align: left;
 }
 
-.mostrarbordas table th {
+.mostrarpizzasdoces table th {
     text-align: left;
 }
 
@@ -362,11 +354,11 @@ section {
     text-align: left;
 }
 
-.mostrarfogazzas table th {
+.mostraresfirrasdoces table th {
     text-align: left;
 }
 
-.mostrarbebidas table th {
+.mostrarbeirutes table th {
     text-align: left;
 }
 
@@ -384,7 +376,7 @@ section {
     display: block;
 }
 
-.mostrarbordas button {
+.mostrarpizzasdoces button {
     border: none;
     background: transparent;
     font-family: 'Permanent Marker', cursive;
@@ -412,7 +404,7 @@ section {
     display: block;
 }
 
-.mostrarfogazzas button {
+.mostraresfirrasdoces button {
     border: none;
     background: transparent;
     font-family: 'Permanent Marker', cursive;
@@ -426,7 +418,7 @@ section {
     display: block;
 }
 
-.mostrarbebidas button {
+.mostrarbeirutes button {
     border: none;
     background: transparent;
     font-family: 'Permanent Marker', cursive;
@@ -460,84 +452,84 @@ section {
     display: block;
 }
 
-#abrebordas {
-  border: none;
-  background: transparent;
-  font-family: 'Permanent Marker', cursive;
-  font-weight: bold;
-  color: #f72b2f;
-  transition: 1s;
-  width: 100%;
-  font-size: 300%;
-  margin: 4% auto;
-  left: 0;
-  right: 0;
-  display: block;
-  animation-name: esconder;
-  animation-duration: 3s;
-  animation-fill-mode: both;
-  animation-timing-function: ease-in-out;
-  display: block;
+#abrepizzasdoces {
+    border: none;
+    background: transparent;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    color: #f72b2f;
+    transition: 1s;
+    width: 100%;
+    font-size: 300%;
+    margin: 4% auto;
+    left: 0;
+    right: 0;
+    display: block;
+    animation-name: esconder;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    display: block;
 }
 
 #abreesfirras {
-  border: none;
-  background: transparent;
-  font-family: 'Permanent Marker', cursive;
-  font-weight: bold;
-  color: #f72b2f;
-  transition: 1s;
-  width: 100%;
-  font-size: 300%;
-  margin: 4% auto;
-  left: 0;
-  right: 0;
-  display: block;
-  animation-name: esconder;
-  animation-duration: 3s;
-  animation-fill-mode: both;
-  animation-timing-function: ease-in-out;
-  display: block;
+    border: none;
+    background: transparent;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    color: #f72b2f;
+    transition: 1s;
+    width: 100%;
+    font-size: 300%;
+    margin: 4% auto;
+    left: 0;
+    right: 0;
+    display: block;
+    animation-name: esconder;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    display: block;
 }
 
-#abrefogazzas {
-  border: none;
-  background: transparent;
-  font-family: 'Permanent Marker', cursive;
-  font-weight: bold;
-  color: #f72b2f;
-  transition: 1s;
-  width: 100%;
-  font-size: 300%;
-  margin: 4% auto;
-  left: 0;
-  right: 0;
-  display: block;
-  animation-name: esconder;
-  animation-duration: 3s;
-  animation-fill-mode: both;
-  animation-timing-function: ease-in-out;
-  display: block;
+#abreesfirrasdoces {
+    border: none;
+    background: transparent;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    color: #f72b2f;
+    transition: 1s;
+    width: 100%;
+    font-size: 300%;
+    margin: 4% auto;
+    left: 0;
+    right: 0;
+    display: block;
+    animation-name: esconder;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    display: block;
 }
 
-#abrebebidas {
-  border: none;
-  background: transparent;
-  font-family: 'Permanent Marker', cursive;
-  font-weight: bold;
-  color: #f72b2f;
-  transition: 1s;
-  width: 100%;
-  font-size: 300%;
-  margin: 4% auto;
-  left: 0;
-  right: 0;
-  display: block;
-  animation-name: esconder;
-  animation-duration: 3s;
-  animation-fill-mode: both;
-  animation-timing-function: ease-in-out;
-  display: block;
+#abrebeirutes {
+    border: none;
+    background: transparent;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    color: #f72b2f;
+    transition: 1s;
+    width: 100%;
+    font-size: 300%;
+    margin: 4% auto;
+    left: 0;
+    right: 0;
+    display: block;
+    animation-name: esconder;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    display: block;
 }
 
 .celulas {
@@ -554,11 +546,25 @@ section {
 }
 
 #descricao {
-    width: 60%;
+    width: 50%;
 }
 
 #precopizza {
     width: 10%;
+    text-align: center;
+}
+
+#precobroto {
+    width: 10%;
+    text-align: center;
+}
+
+#saboresfirra {
+    width: 70%;
+    text-align: center;
+}
+
+#precoesfirra {
     text-align: center;
 }
 
@@ -587,8 +593,8 @@ section {
 }
 
 #sessaolocalizacao p {
-  font-size: 150%;
-  font-weight: bold;
+    font-size: 150%;
+    font-weight: bold;
 }
 
 #sessaocontato {
@@ -617,12 +623,12 @@ section {
 }
 
 #sessaocontato a {
-  color: #d5d6d7;
-  font-size: 250%;
+    color: #d5d6d7;
+    font-size: 250%;
 }
 
 #sessaocontato img {
-  width: 5%;
+    width: 5%;
 }
 
 #sessaocontato div {

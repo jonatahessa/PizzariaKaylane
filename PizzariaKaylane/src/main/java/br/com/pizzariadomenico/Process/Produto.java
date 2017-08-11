@@ -10,11 +10,12 @@ package br.com.pizzariadomenico.Process;
  * @author jonat
  */
 public class Produto {
-    
+
     private int codigo;
     private String nome;
     private String descricao;
     private String preco;
+    private String precoBroto;
     private String ativo;
     private String tipo;
 
@@ -50,6 +51,14 @@ public class Produto {
         this.preco = preco;
     }
 
+    public String getPrecoBroto() {
+        return precoBroto;
+    }
+
+    public void setPrecoBroto(String precoBroto) {
+        this.precoBroto = precoBroto;
+    }
+
     public String getAtivo() {
         return ativo;
     }
@@ -65,8 +74,5 @@ public class Produto {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
-    
-    
-    
-    
+
 }

@@ -47,6 +47,7 @@ public class Adicionar extends HttpServlet {
                 produto.setNome(request.getParameter("nome"));
                 produto.setDescricao(request.getParameter("descricao"));
                 produto.setPreco(request.getParameter("preco"));
+                produto.setPrecoBroto(request.getParameter("precobroto"));
                 produto.setTipo(request.getParameter("tipo"));
                 request.setAttribute("nome", null);
                 request.setAttribute("descricao", null);

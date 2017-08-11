@@ -42,13 +42,45 @@ html, body {
 }
 
 #tabelapizzas {
-  width: 60%;
+  width: 70%;
   display: block;
   margin: auto;
 }
 
+#celulanome {
+  width: 10%;
+  text-align: center;
+}
+
+.celulapreco {
+  width: 7%;
+  text-align: center;
+}
+
+#ingredientes {
+  width: 40%;
+}
+
+#celulastatus {
+  width: 7%;
+  text-align: center;
+}
+
+.acoes {
+  width: 100%;
+}
+
+.celulabotoes {
+  width: 12%;
+  text-align: center;
+}
+
+.celulas {
+  text-align: center;
+}
+
 #divnovo {
-  width: 60%;
+  width: 70%;
   height: 50px;
   display: block;
   margin: auto;
@@ -56,10 +88,7 @@ html, body {
 
 #novo {
   float: right;
-}
-
-button {
-  width: 100px;
+  width: 20%;
 }
 
 #janelanovo {
@@ -82,7 +111,7 @@ button {
 
 #janelaeditar {
   width: 40%;
-  height: 600px;
+  height: 700px;
   position: fixed;
   left: 0;
   top: 0;

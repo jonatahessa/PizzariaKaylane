@@ -46,6 +46,7 @@ public class Editar extends HttpServlet {
             pizza.setNome(request.getParameter("nome"));
             pizza.setDescricao(request.getParameter("descricao"));
             pizza.setPreco(request.getParameter("preco"));
+            pizza.setPrecoBroto(request.getParameter("precobroto"));
             pizza.setTipo(request.getParameter("tipo"));
 
             try {

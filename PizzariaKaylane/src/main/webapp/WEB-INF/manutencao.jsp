@@ -32,13 +32,14 @@
                 <table class="table table-striped" id="tabelapizzas">
                     <tr>
                         <th>Código</th>
-                        <th>Nome</th>
-                        <th>Ingredientes</th>
-                        <th>Preço</th>
-                        <th>Status</th>
-                        <th>Tipo</th>
-                        <th>Editar</th>
-                        <th>Remover</th>
+                        <th id="celulanome">Nome</th>
+                        <th id="ingredientes">Ingredientes</th>
+                        <th class="celulapreco">Preço</th>
+                        <th class="celulapreco">Preço Broto</th>
+                        <th id="celulastatus">Status</th>
+                        <th id="celulatipo">Tipo</th>
+                        <th class="celulabotoes">Editar</th>
+                        <th class="celulabotoes">Remover</th>
                     </tr>
                     <c:forEach var="pizzas" items="${sabores}">
                         <tr>
@@ -46,6 +47,7 @@
                             <td class="celulas">${pizzas.nome}</td>
                             <td>${pizzas.descricao}</td>
                             <td class="celulas">${pizzas.preco}</td>
+                            <td class="celulas">${pizzas.precoBroto}</td>
                             <td class="celulas">${pizzas.ativo}</td>
                             <td class="celulas">${pizzas.tipo}</td>
                             <td><form action="#" onsubmit="return abrirEditar(this);" method="post">
@@ -53,20 +55,21 @@
                                     <input type="hidden" name="nome" value="${pizzas.nome}"/>
                                     <input type="hidden" name="descricao" value="${pizzas.descricao}"/>
                                     <input type="hidden" name="preco" value="${pizzas.preco}"/>
+                                    <input type="hidden" name="precobroto" value="${pizzas.precoBroto}"/>
                                     <input type="hidden" name="tipo" value="${pizzas.tipo}"/>
-                                    <button type="submit" class="btn btn-warning editar" name="botaoeditar">Editar</button>
+                                    <button type="submit" class="btn btn-warning editar acoes" name="botaoeditar">Editar</button>
                                 </form>
                             </td>
                             <c:choose>
                                 <c:when test="${pizzas.ativo eq 'SIM'}">
                                     <td><form method="post" action="Remover">
                                             <input type="hidden" name="codigo" value="${pizzas.codigo}"/>
-                                            <button type="submit" class="btn btn-danger" name="botaodesativar">Desativar</button>
+                                            <button type="submit" class="btn btn-danger acoes" name="botaodesativar">Desativar</button>
                                         </form></td>
                                     </c:when>
                                     <c:otherwise><td><form method="post" action="Ativar">
                                             <input type="hidden" name="codigo" value="${pizzas.codigo}"/>
-                                            <button type="submit" class="btn btn-success" name="botaoativa">Ativar</button>
+                                            <button type="submit" class="btn btn-success acoes" name="botaoativa">Ativar</button>
                                         </form></td>
                                     </c:otherwise>
                                 </c:choose>
@@ -98,15 +101,19 @@
                     <input class="form-control inputsnovo" type="text" name="preco"/>
                 </div>
 
+                <div id="precobroto" class="form-group camposform">
+                    <label for="precobroto">Preço Broto</label>
+                    <input class="form-control inputsnovo" type="text" name="precobroto"/>
+                </div>
+
                 <div id="tipo" class="form-group camposform">
                     <label for="tipo">Tipo</label>
                     <select class="form-control" name="tipo">
                         <option value="PIZZA">Pizza</option>
+                        <option value="PIZZADOCE">Pizza Doce</option>
                         <option value="ESFIHA">Esfiha</option>
-                        <option value="PIZZA/FOGAZZA">Pizza/Fogazza</option>
-                        <option value="FOGAZZA">Fogazza</option>
-                        <option value="BORDA">Borda</option>
-                        <option value="BEBIDA">Bebida</option>
+                        <option value="ESFIHADOCE">Esfiha Doce</option>
+                        <option value="BEIRUTE">Beirute</option>
                         <option value="PROMOCAO">Promoção</option>
                     </select>
                 </div>
@@ -144,6 +151,11 @@
                 <div id="precoeditar" class="form-group camposform">
                     <label for="preco">Preço</label>
                     <input class="form-control inputseditar" type="text" name="preco"/>
+                </div>
+
+                <div id="precobrotoeditar" class="form-group camposform">
+                    <label for="precobroto">Preço Broto</label>
+                    <input class="form-control inputseditar" type="text" name="precobroto"/>
                 </div>
 
                 <div id="tipoeditar" class="form-group camposform">
