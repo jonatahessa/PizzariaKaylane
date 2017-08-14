@@ -290,31 +290,31 @@ section {
 .mostrarpizzas table {
     width: 100%;
     font-family: 'Hind', sans-serif;
-    color: #a69090;
+    color: #545454;
 }
 
 .mostrarpizzasdoces table {
     width: 100%;
     font-family: 'Hind', sans-serif;
-    color: #a69090;
+    color: #545454;
 }
 
 .mostraresfirras table {
     width: 100%;
     font-family: 'Hind', sans-serif;
-    color: #a69090;
+    color: #545454;
 }
 
 .mostraresfirrasdoces table {
     width: 100%;
     font-family: 'Hind', sans-serif;
-    color: #a69090;
+    color: #545454;
 }
 
 .mostrarbeirutes table {
     width: 100%;
     font-family: 'Hind', sans-serif;
-    color: #a69090;
+    color: #545454;
 }
 
 .mostrarpizzas table tr:nth-child(odd) {
