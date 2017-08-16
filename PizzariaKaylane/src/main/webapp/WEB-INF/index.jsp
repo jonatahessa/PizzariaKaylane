@@ -45,7 +45,7 @@
                 <p id="telefonestitulo">5612-7027<br/>
                   5612-9510<br/>
                   5612-9462</p>-->
-                <img src="./_imagens/img1.PNG">
+                <img src="./_imagens/imgoficial.JPG">
             </div>
 
             <div class="sessoes" id="nossacasa">
