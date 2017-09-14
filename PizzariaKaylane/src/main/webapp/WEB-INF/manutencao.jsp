@@ -114,6 +114,7 @@
                         <option value="ESFIHA">Esfiha</option>
                         <option value="ESFIHADOCE">Esfiha Doce</option>
                         <option value="BEIRUTE">Beirute</option>
+                        <option value="BEBIDA">Bebida</option>
                         <option value="PROMOCAO">Promoção</option>
                     </select>
                 </div>

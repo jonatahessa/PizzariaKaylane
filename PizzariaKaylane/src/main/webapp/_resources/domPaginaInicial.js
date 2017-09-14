@@ -4,11 +4,13 @@ function main() {
   var fecharEsfirras = [];
   var fecharEsfirrasDoces = [];
   var fecharBeirutes = [];
+  var fecharBebidas = [];
   var abrirPizzas = document.querySelector("#abrepizzas");
   var abrirPizzaDoces = document.querySelector("#abrepizzasdoces");
   var abrirEsfirras = document.querySelector("#abreesfirras");
   var abrirEsfirrasDoces = document.querySelector("#abreesfirrasdoces");
   var abrirBeirutes = document.querySelector("#abrebeirutes");
+  var abrirBebidas = document.querySelector("#abrebebidas");
   var botaocardapio = document.querySelector("#buttoncardapio");
   var nossa = document.querySelector("#buttonnossacasa");
   var varhome = document.querySelector("#buttonhome");
@@ -31,7 +33,8 @@ function main() {
     fecharEsfirras[i].addEventListener("click", hideEsfirras);
   }
 
-  fecharEsfirrasDoces = document.querySelectorAll(".buttonsfecharesfirrasdoces");
+  fecharEsfirrasDoces =
+      document.querySelectorAll(".buttonsfecharesfirrasdoces");
   for (var i = 0; i < fecharEsfirrasDoces.length; i++) {
     fecharEsfirrasDoces[i].addEventListener("click", hideEsfirrasDoces);
   }
@@ -41,11 +44,17 @@ function main() {
     fecharBeirutes[i].addEventListener("click", hideBeirutes);
   }
 
+  fecharBebidas = document.querySelectorAll(".buttonsfecharbebidas");
+  for (var i = 0; i < fecharBebidas.length; i++) {
+    fecharBebidas[i].addEventListener("click", hideBebidas);
+  }
+
   abrirPizzas.addEventListener("click", showPizzas);
   abrirPizzaDoces.addEventListener("click", showPizzasDoces);
   abrirEsfirras.addEventListener("click", showEsfirras);
   abrirEsfirrasDoces.addEventListener("click", showEsfirrasDoces);
   abrirBeirutes.addEventListener("click", showBeirutes);
+  abrirBebidas.addEventListener("click", showBebidas);
   varhome.addEventListener("click", home);
   promo.addEventListener("click", promocao);
   nossa.addEventListener("click", nossacasa);
@@ -54,13 +63,9 @@ function main() {
   contato.addEventListener("click", scrollcontato);
 }
 
-function home() {
-  window.scrollTo(0,0);
-}
+function home() { window.scrollTo(0, 0); }
 
-function nossacasa() {
-  document.querySelector("#nossacasa").scrollIntoView();
-}
+function nossacasa() { document.querySelector("#nossacasa").scrollIntoView(); }
 
 function promocao() {
   document.querySelector("#sessaopromocoes").scrollIntoView();
@@ -103,6 +108,11 @@ function showBeirutes() {
   document.querySelector("#abrebeirutes").style.display = "none";
 }
 
+function showBebidas() {
+  document.querySelector(".mostrarbebidas").style.display = "block";
+  document.querySelector("#abrebebidas").style.display = "none";
+}
+
 function hidePizzas() {
   document.querySelector(".mostrarpizzas").style.display = "none";
   document.querySelector("#abrepizzas").style.display = "block";
@@ -130,6 +140,12 @@ function hideEsfirrasDoces() {
 function hideBeirutes() {
   document.querySelector(".mostrarbeirutes").style.display = "none";
   document.querySelector("#abrebeirutes").style.display = "block";
+  document.querySelector("#sessaocardapio").scrollIntoView();
+}
+
+function hideBebidas() {
+  document.querySelector(".mostrarbebidas").style.display = "none";
+  document.querySelector("#abrebebidas").style.display = "block";
   document.querySelector("#sessaocardapio").scrollIntoView();
 }
 

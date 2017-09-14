@@ -33,12 +33,14 @@ public class GetSabores extends HttpServlet {
         List<Produto> esfihas = Utils.ListarPizzasPaginaInicialEsfiha();
         List<Produto> esfihasDoces = Utils.ListarPizzasPaginaInicialEsfihaDoces();
         List<Produto> beirutes = Utils.ListarPizzasPaginaInicialBeirutes();
+        List<Produto> bebidas = Utils.ListarPizzasPaginaInicialBebidas();
         List<Produto> promo = Utils.ListarPizzasPaginaInicialPromocoes();
         request.setAttribute("pizzas", pizzas);
         request.setAttribute("pizzasdoces", pizzasDoces);
         request.setAttribute("esfihas", esfihas);
         request.setAttribute("esfihasdoces", esfihasDoces);
         request.setAttribute("beirutes", beirutes);
+        request.setAttribute("bebidas", bebidas);
         if (promo != null) {
             for (Produto prod : promo) {
                 String promoConvert = prod.getDescricao().replaceAll("\n", "<br/>");

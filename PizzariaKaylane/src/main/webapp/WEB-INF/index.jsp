@@ -28,7 +28,7 @@
             <div id="menu">
                 <ul>
                     <li><button type="button" id="buttonhome">Home</button></li>
-                    <li><button type="button" id="buttonnossacasa">Nossa Casa</button></li>
+                    <li><button type="button" id="buttonnossacasa">A Kaylane</button></li>
                     <li><button type="button" id="buttonpromocoes">Promoções</button></li>
                     <li><button type="button" id="buttoncardapio">Cardápio</button></li>
                     <li><button type="button" id="buttonlocalizacao">Localização</button></li>
@@ -45,18 +45,18 @@
                 <p id="telefonestitulo">5612-7027<br/>
                   5612-9510<br/>
                   5612-9462</p>-->
-                <img src="./_imagens/imgoficial.JPG">
+                <img src="_imagens/imgoficial.JPG">
             </div>
 
             <div class="sessoes" id="nossacasa">
-                <h1 class="titulos">Nossa Casa</h1>
+                <h1 class="titulos">A Kaylane</h1>
                 <hr/>
                 <div id="fachada">
                     <img src="_imagens/FachadaPizzaria.jpg">
                 </div>
-                <p>Em 1999, Carlos de Toledo Domenico criou a PIZZARIA DOMENICO, unindo a tradição da pizza com a sofisticação informal. E não parou de crescer, evoluir, adotando o lema: “Atender à expectativa dos clientes” como sinônimo de qualidade.</p>
-                <p>A localização tornou-se privilegiada: Haddock Lobo X Alameda Tietê, a porta de entrada dos Jardins. O investimento constante nas instalações, produtos e serviços, faz com que a DOMENICO seja considerada um dos clássicos, na terra das pizzarias.</p>
-                <p>Todos os recursos são colocados à disposição dos funcionários, para que a filosofia desde a fundação continue: SERVIR PIZZAS COM DEDICAÇÃO, CONHECIMENTO E ALEGRIA.</p>
+                <p>Em 2009, foi inaugurada a Pizzaria e Esfiharia Kaylane, unindo a tradição da pizza com a sofisticação informal. E não parou de crescer, evoluir, adotando o lema: “Atender bem para atender sempre” como sinônimo de qualidade.</p>
+                <p>Localizada na Rua Zike Tuma, o investimento constante nas instalações, produtos e serviços, faz com que a Kaylane seja considerada um clássico, na cidade das pizzarias e esfiharias.</p>
+                <p>Todos os recursos são colocados à disposição dos funcionários, para que a filosofia desde a fundação continue: SERVIR PIZZAS COM DEDICAÇÃO, CARINHO E ALEGRIA.</p>
             </div>
 
             <div class="sessoes" id="sessaopromocoes">
@@ -131,11 +131,13 @@
                     <button class="buttonsfecharesfirras" type="button" name="fecharcardapio">Fechar</button>
                     <table>
                         <tr>
+                          <th id="codigoesfirra">Número</th>
                             <th id="saboresfirra">Sabor</th>
                             <th id="precoesfirra">Preço</th>
                         </tr>
                         <c:forEach var="esfiha" items="${esfihas}">
                             <tr>
+                              <td class="celulas">${esfiha.codigo}</td>
                                 <td class="celulas">${esfiha.nome}</td>
                                 <td class="celulas">${esfiha.preco}</td>
                             </tr>
@@ -150,11 +152,13 @@
                     <button class="buttonsfecharesfirrasdoces" type="button" name="fecharcardapio">Fechar</button>
                     <table>
                         <tr>
+                          <th id="codigoesfirra">Número</th>
                             <th id="saboresfirra">Sabor</th>
                             <th id="precoesfirra">Preço</th>
                         </tr>
                         <c:forEach var="esfihadoce" items="${esfihasdoces}">
                             <tr>
+                              <td class="celulas">${esfihadoce.codigo}</td>
                                 <td class="celulas">${esfihadoce.nome}</td>
                                 <td class="celulas">${esfihadoce.preco}</td>
                             </tr>
@@ -169,12 +173,14 @@
                     <button class="buttonsfecharbeirutes" type="button" name="fecharcardapio">Fechar</button>
                     <table>
                         <tr>
+                          <th id="codigoesfirra">Número</th>
                             <th id="saborpizza">Sabor</th>
                             <th id="descricao">Ingredientes</th>
                             <th id="precopizza">Preço</th>
                         </tr>
                         <c:forEach var="beirute" items="${beirutes}">
                             <tr>
+                              <td class="celulas">${beirute.codigo}</td>
                                 <td class="celulas">${beirute.nome}</td>
                                 <td>${beirute.descricao}</td>
                                 <td class="celulas">${beirute.preco}</td>
@@ -182,6 +188,25 @@
                         </c:forEach>
                     </table>
                     <button class="buttonsfecharbeirutes" type="button" name="fecharcardapio">Fechar</button>
+                </div>
+
+                <button id="abrebebidas" type="button" name="abrebebidas">Abrir Bebidas</button>
+
+                <div class="mostrarbebidas">
+                    <button class="buttonsfecharbebidas" type="button" name="fecharcardapio">Fechar</button>
+                    <table>
+                        <tr>
+                            <th id="saborbebida">Bebida</th>
+                            <th id="tamanhobebida">Tamanho</th>
+                        </tr>
+                        <c:forEach var="bebida" items="${bebidas}">
+                            <tr>
+                                <td class="celulas">${bebida.nome}</td>
+                                <td class="celulas">${bebida.descricao}</td>
+                            </tr>
+                        </c:forEach>
+                    </table>
+                    <button class="buttonsfecharesfirras" type="button" name="fecharcardapio">Fechar</button>
                 </div>
             </div>
 
@@ -201,6 +226,7 @@
                         <a href="tel:01156129462">5612-9462</a></h2>
                     <p>Abrimos todos os dias das 18h às 00h</p>
                     <p id="copyright">Copyright (c) Pizzaria Kaylane Copyright Holder All Rights Reserved.</p>
+                    <p>Developed by Jonata Hessa</p>
                 </div>
             </footer>
         </section>

@@ -2,10 +2,12 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: #830c10;
 }
 
 section {
     height: 100%;
+
 }
 
 #principal {
@@ -19,7 +21,7 @@ section {
     float: left;
     width: 100%;
     height: 80px;
-    background-color: #EDEDED;
+    background-color: #830c10;
     list-style: none;
     font: 100% Tahoma;
     opacity: .9;
@@ -32,13 +34,13 @@ section {
 }
 
 #menu ul li button {
-    background-color: #EDEDED;
-    color: #251d1d;
+    background-color: #830c10;
+    color: #e3e3e3;
     text-decoration: none;
     height: 100%;
     float: left;
     width: 13%;
-    font-size: 150%;
+    font-size: 120%;
     font-weight: bold;
     font-family: 'Josefin Sans', sans-serif;
     transition: 1s;
@@ -139,7 +141,7 @@ section {
 .titulos {
     font-family: 'Lusitana', serif;
     font-weight: bold;
-    color: #a6a0a0;
+    color: #e3e3e3;
     font-size: 220%;
 }
 
@@ -149,10 +151,10 @@ section {
 
 #nossacasa p {
     font-family: 'Jaldi', sans-serif;
-    font-weight: bold;
-    color: #a6a0a0;
-    font-size: 120%;
+    color: #e3e3e3;
+    font-size: 130%;
     text-align: left;
+    text-align: justify;
 }
 
 #nossacasa p:nth-of-type(1) {
@@ -174,9 +176,9 @@ section {
 }
 
 #fachada {
-    width: 55%;
+    width: 53%;
     float: right;
-    margin: 1%;
+    margin: 3%;
     right: 0;
 }
 
@@ -192,12 +194,13 @@ section {
 
 .paineispromo {
     border: 3px solid;
-    border-color: #a6a0a0;
-    width: 60%;
+    border-color: black;
+    background-color: #e3e3e3;
+    width: 70%;
     display: block;
-    margin: 2% auto;
+    margin: 5% auto;
     text-align: center;
-    font-family: Calibri;
+    font-family: 'Jaldi', sans-serif;
 
 }
 
@@ -214,7 +217,7 @@ section {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     line-height: 140%;
-    color: #a6a0a0;
+    color: black;
 }
 
 .paineispromo p:last-of-type {
@@ -286,6 +289,18 @@ section {
     display: none;
 }
 
+.mostrarbebidas {
+    width: 100%;
+    height: auto;
+    position: static;
+    transition: 1s;
+    animation-name: exibir;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    display: none;
+}
+
 @keyframes exibir {
     0% { visibility: hidden; opacity: 0; }
     25% { visibility: visible; opacity: 1; }
@@ -295,55 +310,66 @@ section {
 .mostrarpizzas table {
     width: 100%;
     font-family: 'Hind', sans-serif;
-    color: #545454;
+    color: #e3e3e3;
 }
 
 .mostrarpizzasdoces table {
     width: 100%;
     font-family: 'Hind', sans-serif;
-    color: #545454;
+    color: #e3e3e3;
 }
 
 .mostraresfirras table {
     width: 100%;
     font-family: 'Hind', sans-serif;
-    color: #545454;
+    color: #e3e3e3;
 }
 
 .mostraresfirrasdoces table {
     width: 100%;
     font-family: 'Hind', sans-serif;
-    color: #545454;
+    color: #e3e3e3;
 }
 
 .mostrarbeirutes table {
     width: 100%;
     font-family: 'Hind', sans-serif;
-    color: #545454;
+    color: #e3e3e3;
+}
+
+.mostrarbebidas table {
+    width: 100%;
+    font-family: 'Hind', sans-serif;
+    color: #e3e3e3;
 }
 
 .mostrarpizzas table tr:nth-child(odd) {
-    background-color: #ccc;
+    background-color: #e3e3e3;
     color: black;
 }
 
 .mostrarpizzasdoces table tr:nth-child(odd) {
-    background-color: #ccc;
+    background-color: #e3e3e3;
     color: black;
 }
 
 .mostraresfirras table tr:nth-child(odd) {
-    background-color: #ccc;
+    background-color: #e3e3e3;
     color: black;
 }
 
 .mostraresfirrasdoces table tr:nth-child(odd) {
-    background-color: #ccc;
+    background-color: #e3e3e3;
     color: black;
 }
 
 .mostrarbeirutes table tr:nth-child(odd) {
-    background-color: #ccc;
+    background-color: #e3e3e3;
+    color: black;
+}
+
+.mostrarbebidas table tr:nth-child(odd) {
+    background-color: #e3e3e3;
     color: black;
 }
 
@@ -367,12 +393,16 @@ section {
     text-align: left;
 }
 
+.mostrarbebidas table th {
+    text-align: left;
+}
+
 .mostrarpizzas button {
     border: none;
     background: transparent;
     font-family: 'Permanent Marker', cursive;
     font-weight: bold;
-    color: #f72b2f;
+    color: #ffbe0a;
     transition: 1s;
     width: 100%;
     height: 60px;
@@ -386,7 +416,7 @@ section {
     background: transparent;
     font-family: 'Permanent Marker', cursive;
     font-weight: bold;
-    color: #f72b2f;
+    color: #ffbe0a;
     transition: 1s;
     width: 100%;
     height: 60px;
@@ -400,7 +430,7 @@ section {
     background: transparent;
     font-family: 'Permanent Marker', cursive;
     font-weight: bold;
-    color: #f72b2f;
+    color: #ffbe0a;
     transition: 1s;
     width: 100%;
     height: 60px;
@@ -414,7 +444,7 @@ section {
     background: transparent;
     font-family: 'Permanent Marker', cursive;
     font-weight: bold;
-    color: #f72b2f;
+    color: #ffbe0a;
     transition: 1s;
     width: 100%;
     height: 60px;
@@ -428,7 +458,21 @@ section {
     background: transparent;
     font-family: 'Permanent Marker', cursive;
     font-weight: bold;
-    color: #f72b2f;
+    color: #ffbe0a;
+    transition: 1s;
+    width: 100%;
+    height: 60px;
+    font-size: 200%;
+    margin: 0 auto;
+    display: block;
+}
+
+.mostrarbebidas button {
+    border: none;
+    background: transparent;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    color: #ffbe0a;
     transition: 1s;
     width: 100%;
     height: 60px;
@@ -442,7 +486,7 @@ section {
     background: transparent;
     font-family: 'Permanent Marker', cursive;
     font-weight: bold;
-    color: #f72b2f;
+    color: #ffbe0a;
     transition: 1s;
     width: 100%;
     font-size: 300%;
@@ -462,7 +506,7 @@ section {
     background: transparent;
     font-family: 'Permanent Marker', cursive;
     font-weight: bold;
-    color: #f72b2f;
+    color: #ffbe0a;
     transition: 1s;
     width: 100%;
     font-size: 300%;
@@ -482,7 +526,7 @@ section {
     background: transparent;
     font-family: 'Permanent Marker', cursive;
     font-weight: bold;
-    color: #f72b2f;
+    color: #ffbe0a;
     transition: 1s;
     width: 100%;
     font-size: 300%;
@@ -502,7 +546,7 @@ section {
     background: transparent;
     font-family: 'Permanent Marker', cursive;
     font-weight: bold;
-    color: #f72b2f;
+    color: #ffbe0a;
     transition: 1s;
     width: 100%;
     font-size: 300%;
@@ -522,7 +566,27 @@ section {
     background: transparent;
     font-family: 'Permanent Marker', cursive;
     font-weight: bold;
-    color: #f72b2f;
+    color: #ffbe0a;
+    transition: 1s;
+    width: 100%;
+    font-size: 300%;
+    margin: 4% auto;
+    left: 0;
+    right: 0;
+    display: block;
+    animation-name: esconder;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    display: block;
+}
+
+#abrebebidas {
+    border: none;
+    background: transparent;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    color: #ffbe0a;
     transition: 1s;
     width: 100%;
     font-size: 300%;
@@ -564,12 +628,25 @@ section {
     text-align: center;
 }
 
+#codigoesfirra {
+  text-align: center;
+}
+
 #saboresfirra {
     width: 70%;
     text-align: center;
 }
 
 #precoesfirra {
+    text-align: center;
+}
+
+#saborbebida {
+    width: 50%;
+    text-align: center;
+}
+
+#tamanhobebida {
     text-align: center;
 }
 
@@ -580,7 +657,7 @@ section {
 }
 
 #sessaocardapio button:hover {
-    color: #7f7676;
+    color: #e3e3e3;
 }
 
 #sessaodelivery {
@@ -599,6 +676,7 @@ section {
 
 #sessaolocalizacao p {
     font-size: 150%;
+    color: #e3e3e3;
     font-weight: bold;
 }
 
