@@ -47,13 +47,13 @@ section {
     border: none;
 }
 
-/*#firstimg {
+#firstimg {
   padding-top: 10%;
   background-image: url(../_imagens/img1.jpg);
-}*/
+}
 
 #logokaylane {
-    width: 31%;
+    width: 40%;
     height: 23%;
     border: 7px solid #f4cc1a;
     margin: auto;
@@ -68,7 +68,7 @@ section {
     margin-top: 1%;
     margin-bottom: 1%;
     color: #f4cc1a;
-    font-size: 600%;
+    font-size: 65px;
 }
 
 #logokaylane hr {
@@ -83,7 +83,7 @@ section {
     margin-top: 1%;
     margin-right: 5%;
     margin-bottom: 1%;
-    font-size: 250%;
+    font-size: 160%;
     text-align: right;
     font-weight: bold;
     color: #454545;
@@ -106,10 +106,10 @@ section {
 
 #telefonestitulo {
     text-align: center;
-    font-size: 700%;
+    font-size: 500%;
     font-family: 'Baloo Da', cursive;
     text-shadow: 4px 4px 4px black;
-    line-height: 150px;
+    line-height: 80px;
     margin-top: 1%;
     color: #d6d6d6;
 }

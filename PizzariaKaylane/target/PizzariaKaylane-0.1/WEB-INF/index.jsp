@@ -37,15 +37,18 @@
             </div>
 
             <div id="firstimg">
-                <!--<div id="logokaylane">
+                <div id="logokaylane">
                   <h1>KAYLANE</h1>
                   <hr/>
                   <p>Pizzaria & Esfiharia</p>
                 </div>
                 <p id="telefonestitulo">5612-7027<br/>
                   5612-9510<br/>
-                  5612-9462</p>-->
-                <img src="_imagens/imgoficial.JPG">
+                  5612-9462 <br/>
+                  5612-7027 <br/>
+                  9 4832-9296
+                 </p>
+                <!--<img src="_imagens/imgoficial.JPG">-->
             </div>
 
             <div class="sessoes" id="nossacasa">
@@ -223,7 +226,8 @@
                     <hr/>
                     <h2><a href="tel:01156127027">5612-7027</a><br/>
                         <a href="tel:01156129510">5612-9510</a><br/>
-                        <a href="tel:01156129462">5612-9462</a></h2>
+                        <a href="tel:01156129462">5612-9462</a><br/>
+                        <a href="tel:011948329296">9 4832-9296</a></h2>
                     <p>Abrimos todos os dias das 18h às 00h</p>
                     <p id="copyright">Copyright (c) Pizzaria Kaylane Copyright Holder All Rights Reserved.</p>
                     <p>Developed by Jonata Hessa</p>
