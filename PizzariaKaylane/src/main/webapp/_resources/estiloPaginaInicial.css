@@ -47,9 +47,8 @@ section {
     border: none;
 }
 
-#firstimg {
-  padding-top: 10%;
-  background-image: url(../_imagens/img1.jpg);
+#firstimg img {
+  width: 100%;
 }
 
 #logokaylane {
