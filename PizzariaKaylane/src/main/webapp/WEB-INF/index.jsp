@@ -46,9 +46,9 @@
                   5612-9510<br/>
                   5612-9462 <br/>
                   5612-7027 <br/>
-                  9 4832-9296
+                  9 6298-1400 <img class="img-fluid" src="_imagens/oi-logo.png" alt="">
                 </p>-->
-                <img src="_imagens/imgoficial.JPG">
+                <img src="_imagens/imgoficial2.JPG">
             </div>
 
             <div class="sessoes" id="nossacasa">
@@ -226,7 +226,9 @@
                     <hr/>
                     <h2><a href="tel:01156127027">5612-7027</a><br/>
                         <a href="tel:01156129510">5612-9510</a><br/>
-                        <a href="tel:01156129462">5612-9462</a><br/></h2>
+                        <a href="tel:01156129462">5612-9462</a><br/>
+                        <a href="tel:011962981400">9 6298-1400</a>
+                        <img src="_imagens/oi-logo.png" alt=""> <br/></h2>
                     <p>Abrimos todos os dias das 18h às 00h</p>
                     <p id="copyright">Copyright (c) Pizzaria Kaylane Copyright Holder All Rights Reserved.</p>
                     <p>Developed by Jonata Hessa</p>

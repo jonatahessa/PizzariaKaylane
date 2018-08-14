@@ -15,6 +15,15 @@ section {
     height: 100%;
 }
 
+/*#firstimg {
+  padding-top: 10%;
+  background-image: url(../_imagens/img1.jpg);
+}
+
+#telefonestitulo img {
+  max-width: 100px;
+}*/
+
 #menu ul {
     padding: 0px;
     margin: 0px;
