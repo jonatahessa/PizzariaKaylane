@@ -79,6 +79,11 @@
             <div class="sessoes" id="sessaocardapio">
                 <h1 class="titulos">Cardápio</h1>
                 <hr/>
+
+                <div class="taxa-entrega">
+                  <h3>Taxa de entrega R$ 2,50</h3>
+                </div>
+
                 <button id="abrepizzas" type="button" name="abrepizzas">Abrir Pizzas</button>
                 <div class="mostrarpizzas">
                     <button class="buttonsfecharpizzas" type="button" name="fecharcardapio">Fechar</button>
