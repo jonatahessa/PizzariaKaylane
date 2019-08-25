@@ -5,9 +5,34 @@ html, body {
     background-color: #830c10;
 }
 
-section {
-    height: 100%;
+#google-play {
+  height: 7rem;
+  position: fixed;
+  z-index: 149;
+  bottom: 0;
+  right: 0;
+  background-color: #FFF;
+}
 
+#google-play a {
+  font-family: 'Lato', sans-serif;
+  color: black;
+  text-decoration: none;
+  margin: 2rem;
+  text-align: center;
+}
+
+#google-play a p {
+  margin-top: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: .8rem;
+}
+
+#google-play a img {
+  height: 60%;
+  display: block;
+  margin: auto;
 }
 
 #principal {
@@ -35,7 +60,7 @@ section {
     font: 100% Tahoma;
     opacity: .9;
     position: fixed;
-    z-index: 150;
+    z-index: 148;
 }
 
 #menu ul li {

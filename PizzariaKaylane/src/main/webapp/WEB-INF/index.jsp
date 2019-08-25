@@ -24,6 +24,9 @@
         <title>Pizzaria Kaylane</title>
     </head>
     <body>
+        <div id="google-play">
+          <a href="https://play.google.com/store/apps/details?id=com.wabiz.delivery.kaylane" target="_blank"><img src="_imagens/google-play.png" alt="google play"/><p>Clique e baixe nosso APP!</p></a>
+        </div>
         <section id="principal">
             <div id="menu">
                 <ul>
@@ -222,7 +225,8 @@
                 <h1 class="titulos">Localização</h1>
                 <hr/>
                 <p>Rua Zike Tuma, 940 - Jardim Ubirajara, São Paulo - SP</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d913.4200470062309!2d-46.67087714187909!3d-23.687392333888592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce45588182e867%3A0xce1520e42dcf6a20!2sKaylane!5e0!3m2!1spt-BR!2sbr!4v1502374344829" allowfullscreen></iframe>
+                <p>Nossa área de Entrega</p>
+                <iframe src="https://www.google.com/maps/d/embed?mid=1GnK2_8ozRWDxbkdzm-nZ9ZxAnnE" allowfullscreen></iframe>
             </div>
 
             <footer id="sessaocontato">
