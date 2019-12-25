@@ -84,7 +84,7 @@
                 <hr/>
 
                 <div class="taxa-entrega">
-                  <h3>Taxa de entrega R$ 2,50</h3>
+                  <h3>Taxa de entrega a partir de R$ 3,00</h3>
                 </div>
 
                 <button id="abrepizzas" type="button" name="abrepizzas">Abrir Pizzas</button>
